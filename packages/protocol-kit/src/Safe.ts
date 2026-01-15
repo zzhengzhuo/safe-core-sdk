@@ -522,6 +522,7 @@ class Safe {
   async createTransaction({
     transactions,
     onlyCalls = true,
+    multiCall = false,
     options
   }: CreateTransactionProps): Promise<SafeTransaction> {
     const safeVersion = this.getContractVersion()
@@ -536,7 +537,7 @@ class Safe {
     }
 
     let newTransaction: SafeTransactionDataPartial
-    if (transactions.length > 1) {
+    if (multiCall || transactions.length > 1) {
       let multiSendContract
       if (onlyCalls) {
         if (hasDelegateCalls(transactions)) {

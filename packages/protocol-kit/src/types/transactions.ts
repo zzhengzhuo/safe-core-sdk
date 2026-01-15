@@ -14,6 +14,7 @@ export type CreateTransactionProps = {
   options?: SafeTransactionOptionalProps
   /** onlyCalls - Forces the execution of the transaction array with MultiSendCallOnly contract */
   onlyCalls?: boolean
+  multiCall?: boolean
 }
 
 type StandardizeSafeTxDataWithSafeContractProps = {
