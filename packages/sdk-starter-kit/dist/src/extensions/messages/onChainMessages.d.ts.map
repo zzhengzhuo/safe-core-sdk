@@ -1,0 +1,1 @@
+{"version":3,"file":"onChainMessages.d.ts","sourceRoot":"","sources":["../../../../src/extensions/messages/onChainMessages.ts"],"names":[],"mappings":"AAGA,OAAO,EAAE,UAAU,EAAE,MAAM,yCAAyC,CAAA;AACpE,OAAO,EAAE,gBAAgB,EAAE,uBAAuB,EAAE,MAAM,oCAAoC,CAAA;AAG9F;;;;;;;;;;;;;;GAcG;AACH,wBAAgB,eAAe,aACb,UAAU;IACxB;;;;;;;OAOG;8BAC6B,uBAAuB,GAAG,OAAO,CAAC,gBAAgB,CAAC;EAkBtF"}

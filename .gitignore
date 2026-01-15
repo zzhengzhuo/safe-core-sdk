@@ -19,7 +19,6 @@ meta-*.json
 
 # Compiled binary addons
 build/
-dist/
 
 # Dependency directories
 node_modules/
